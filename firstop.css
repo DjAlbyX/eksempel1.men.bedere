@@ -1,0 +1,80 @@
+body {
+    background-color: aqua;
+    margin-left: 20px;
+}
+
+.header {
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    padding: 1% 0;
+    border: 1px solid black;
+    user-select: none;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+}
+
+.card {
+    width: 500px;
+    background-color: lightgray;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 3px;
+}
+
+.innercard {
+    padding: 10px;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 520px);
+    width: auto;
+}
+
+.bodypart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bodies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p {
+    padding-left: 10px;
+}

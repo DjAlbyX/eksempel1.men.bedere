@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Første Oppgave</title>
+
+    <link rel="stylesheet" href="firstop.css" />
+    <script src="firstop.js"></script>
+</head>
+
+<body>
+    <div>
+        <button onclick="noLayout()">Ingen layout</button>
+        <button onclick="verticalLayout()">Vertikal layout</button>
+        <button onclick="horizontalLayout()">Horisontal layout</button>
+        <button onclick="gridLayout()">Grid layout</button>
+    </div>
+
+
+    <h1>Eksempel 1</h1>
+    <div id="cards">
+        <div class="card">
+            <div class="header green" onclick="show1()">Verktoy</div>
+            <div id="card1"></div>
+        </div>
+
+        <div class="card">
+            <div class="header blue" onclick="show2()">HTML</div>
+            <div id="card2"></div>
+        </div>
+
+
+        <div class="card">
+            <div class="header red" onclick="show3()">CSS</div>
+            <div id="card3"></div>
+        </div>
+
+        <div class="card">
+            <div class="header orange" onclick="show4()">JavaScript</div>
+            <div id="card4"></div>
+        </div>
+
+        <div class="card">
+            <div class="header gray" onclick="showcardgame()">Hode, kropp og ben</div>
+            <div id="cardgame"></div>
+        </div>
+
+
+        
+    </div>
+
+</body>
+
+</html>
